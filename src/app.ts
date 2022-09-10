@@ -129,5 +129,4 @@ function App(){
       console.log(response.answer);
   })();
 }
-
-App();
+App()

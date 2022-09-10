@@ -129,10 +129,135 @@
           "par,put,que": {
             "intent": "OFENSA",
             "domain": "default"
+          },
+          "meu,no,pau,peg": {
+            "intent": "MACHISMO",
+            "domain": "default"
+          },
+          "meu,no,pau,segur": {
+            "intent": "MACHISMO",
+            "domain": "default"
+          },
+          "chup,pau": {
+            "intent": "MACHISMO",
+            "domain": "default"
+          },
+          "meu,no,pau,sent": {
+            "intent": "MACHISMO",
+            "domain": "default"
+          },
+          "fot,mand": {
+            "intent": "MACHISMO",
+            "domain": "default"
+          },
+          "fot,mand,nua": {
+            "intent": "MACHISMO",
+            "domain": "default"
+          },
+          "nua": {
+            "intent": "MACHISMO",
+            "domain": "default"
+          },
+          "do,fot,mand,peit": {
+            "intent": "MACHISMO",
+            "domain": "default"
+          },
+          "peit,quer,seu,ver": {
+            "intent": "MACHISMO",
+            "domain": "default"
+          },
+          "chup,me,vem": {
+            "intent": "MACHISMO",
+            "domain": "default"
+          },
+          "bem,e,saf,voc": {
+            "intent": "MACHISMO",
+            "domain": "default"
+          },
+          "cachorr,sua": {
+            "intent": "MACHISMO",
+            "domain": "default"
+          },
+          "com,mal": {
+            "intent": "MACHISMO",
+            "domain": "default"
+          },
+          "com,voc,vou": {
+            "intent": "MACHISMO",
+            "domain": "default"
+          },
+          "dar,me,vai,vou": {
+            "intent": "MACHISMO",
+            "domain": "default"
+          },
+          "dar,me,quer": {
+            "intent": "MACHISMO",
+            "domain": "default"
+          },
+          "bom,dia": {
+            "intent": "SAUDACAO.Dia",
+            "domain": "default"
+          },
+          "anda,com,dia,o": {
+            "intent": "SAUDACAO.Dia",
+            "domain": "default"
+          },
+          "com,pass,tem": {
+            "intent": "SAUDACAO.Dia",
+            "domain": "default"
+          },
+          "dia,lind,que": {
+            "intent": "SAUDACAO.Dia",
+            "domain": "default"
+          },
+          "boa,tard": {
+            "intent": "SAUDACAO.Tarde",
+            "domain": "default"
+          },
+          "boa,noit": {
+            "intent": "SAUDACAO.Noite",
+            "domain": "default"
+          },
+          "boa,madrug": {
+            "intent": "SAUDACAO.Noite",
+            "domain": "default"
+          },
+          "eai": {
+            "intent": "SAUDACAO",
+            "domain": "default"
+          },
+          "oi": {
+            "intent": "SAUDACAO",
+            "domain": "default"
+          },
+          "ajud,me": {
+            "intent": "SAUDACAO",
+            "domain": "default"
+          },
+          "ajud,me,pod": {
+            "intent": "SAUDACAO",
+            "domain": "default"
+          },
+          "ajud,de,precis,sua,uma": {
+            "intent": "SAUDACAO",
+            "domain": "default"
+          },
+          "andad,com,tem": {
+            "intent": "SAUDACAO",
+            "domain": "default"
+          },
+          "com,esta": {
+            "intent": "SAUDACAO",
+            "domain": "default"
           }
         },
         "intentDict": {
-          "OFENSA": "default"
+          "OFENSA": "default",
+          "MACHISMO": "default",
+          "SAUDACAO.Dia": "default",
+          "SAUDACAO.Tarde": "default",
+          "SAUDACAO.Noite": "default",
+          "SAUDACAO": "default"
         },
         "sentences": [
           {
@@ -359,6 +484,171 @@
             "domain": "default",
             "utterance": "puta que pariu",
             "intent": "OFENSA"
+          },
+          {
+            "domain": "default",
+            "utterance": "pega no meu pau",
+            "intent": "MACHISMO"
+          },
+          {
+            "domain": "default",
+            "utterance": "segura no meu pau",
+            "intent": "MACHISMO"
+          },
+          {
+            "domain": "default",
+            "utterance": "chupa pau",
+            "intent": "MACHISMO"
+          },
+          {
+            "domain": "default",
+            "utterance": "sent no meu pau",
+            "intent": "MACHISMO"
+          },
+          {
+            "domain": "default",
+            "utterance": "manda foto",
+            "intent": "MACHISMO"
+          },
+          {
+            "domain": "default",
+            "utterance": "manda foto nua",
+            "intent": "MACHISMO"
+          },
+          {
+            "domain": "default",
+            "utterance": "nua",
+            "intent": "MACHISMO"
+          },
+          {
+            "domain": "default",
+            "utterance": "manda foto do peito",
+            "intent": "MACHISMO"
+          },
+          {
+            "domain": "default",
+            "utterance": "quero ver seu peito",
+            "intent": "MACHISMO"
+          },
+          {
+            "domain": "default",
+            "utterance": "manda foto do peito",
+            "intent": "MACHISMO"
+          },
+          {
+            "domain": "default",
+            "utterance": "vem me chupar",
+            "intent": "MACHISMO"
+          },
+          {
+            "domain": "default",
+            "utterance": "você é bem safada",
+            "intent": "MACHISMO"
+          },
+          {
+            "domain": "default",
+            "utterance": "sua cachorra",
+            "intent": "MACHISMO"
+          },
+          {
+            "domain": "default",
+            "utterance": "mal comida",
+            "intent": "MACHISMO"
+          },
+          {
+            "domain": "default",
+            "utterance": "vou comer você",
+            "intent": "MACHISMO"
+          },
+          {
+            "domain": "default",
+            "utterance": "vou vai me dar",
+            "intent": "MACHISMO"
+          },
+          {
+            "domain": "default",
+            "utterance": "quer me dar",
+            "intent": "MACHISMO"
+          },
+          {
+            "domain": "default",
+            "utterance": "Bom dia",
+            "intent": "SAUDACAO.Dia"
+          },
+          {
+            "domain": "default",
+            "utterance": "como anda o dia",
+            "intent": "SAUDACAO.Dia"
+          },
+          {
+            "domain": "default",
+            "utterance": "como anda o dia",
+            "intent": "SAUDACAO.Dia"
+          },
+          {
+            "domain": "default",
+            "utterance": "como tem passado",
+            "intent": "SAUDACAO.Dia"
+          },
+          {
+            "domain": "default",
+            "utterance": "que dia lindo",
+            "intent": "SAUDACAO.Dia"
+          },
+          {
+            "domain": "default",
+            "utterance": "Boa tarde",
+            "intent": "SAUDACAO.Tarde"
+          },
+          {
+            "domain": "default",
+            "utterance": "Boa noite",
+            "intent": "SAUDACAO.Noite"
+          },
+          {
+            "domain": "default",
+            "utterance": "Boa madrugada",
+            "intent": "SAUDACAO.Noite"
+          },
+          {
+            "domain": "default",
+            "utterance": "eai",
+            "intent": "SAUDACAO"
+          },
+          {
+            "domain": "default",
+            "utterance": "oi",
+            "intent": "SAUDACAO"
+          },
+          {
+            "domain": "default",
+            "utterance": "me ajuda",
+            "intent": "SAUDACAO"
+          },
+          {
+            "domain": "default",
+            "utterance": "poderia me ajudar",
+            "intent": "SAUDACAO"
+          },
+          {
+            "domain": "default",
+            "utterance": "preciso de uma ajuda sua",
+            "intent": "SAUDACAO"
+          },
+          {
+            "domain": "default",
+            "utterance": "como tem andado?",
+            "intent": "SAUDACAO"
+          },
+          {
+            "domain": "default",
+            "utterance": "como tem andado",
+            "intent": "SAUDACAO"
+          },
+          {
+            "domain": "default",
+            "utterance": "como está",
+            "intent": "SAUDACAO"
           }
         ],
         "domains": {
@@ -389,10 +679,60 @@
               "noss": 1,
               "pqp": 1,
               "que": 1,
-              "par": 1
+              "par": 1,
+              "peg": 1,
+              "no": 1,
+              "meu": 1,
+              "pau": 1,
+              "segur": 1,
+              "chup": 1,
+              "sent": 1,
+              "mand": 1,
+              "fot": 1,
+              "nua": 1,
+              "do": 1,
+              "peit": 1,
+              "quer": 1,
+              "ver": 1,
+              "seu": 1,
+              "vem": 1,
+              "me": 1,
+              "voc": 1,
+              "e": 1,
+              "bem": 1,
+              "saf": 1,
+              "sua": 1,
+              "cachorr": 1,
+              "mal": 1,
+              "com": 1,
+              "vou": 1,
+              "vai": 1,
+              "dar": 1,
+              "anda": 1,
+              "o": 1,
+              "tem": 1,
+              "pass": 1,
+              "lind": 1,
+              "boa": 1,
+              "tard": 1,
+              "noit": 1,
+              "madrug": 1,
+              "oi": 1,
+              "ajud": 1,
+              "pod": 1,
+              "precis": 1,
+              "de": 1,
+              "uma": 1,
+              "andad": 1,
+              "esta": 1
             },
             "intents": {
-              "OFENSA": 1
+              "OFENSA": 1,
+              "MACHISMO": 1,
+              "SAUDACAO.Dia": 1,
+              "SAUDACAO.Tarde": 1,
+              "SAUDACAO.Noite": 1,
+              "SAUDACAO": 1
             },
             "intentFeatures": {
               "OFENSA": {
@@ -411,14 +751,81 @@
                 "pqp": 1,
                 "que": 1,
                 "par": 1
+              },
+              "MACHISMO": {
+                "peg": 1,
+                "no": 1,
+                "meu": 1,
+                "pau": 1,
+                "segur": 1,
+                "chup": 1,
+                "sent": 1,
+                "mand": 1,
+                "fot": 1,
+                "nua": 1,
+                "do": 1,
+                "peit": 1,
+                "quer": 1,
+                "ver": 1,
+                "seu": 1,
+                "vem": 1,
+                "me": 1,
+                "voc": 1,
+                "e": 1,
+                "bem": 1,
+                "saf": 1,
+                "sua": 1,
+                "cachorr": 1,
+                "mal": 1,
+                "com": 1,
+                "vou": 1,
+                "vai": 1,
+                "dar": 1
+              },
+              "SAUDACAO.Dia": {
+                "bom": 1,
+                "dia": 1,
+                "com": 1,
+                "anda": 1,
+                "o": 1,
+                "tem": 1,
+                "pass": 1,
+                "que": 1,
+                "lind": 1
+              },
+              "SAUDACAO.Tarde": {
+                "boa": 1,
+                "tard": 1
+              },
+              "SAUDACAO.Noite": {
+                "boa": 1,
+                "noit": 1,
+                "madrug": 1
+              },
+              "SAUDACAO": {
+                "eai": 1,
+                "oi": 1,
+                "me": 1,
+                "ajud": 1,
+                "pod": 1,
+                "precis": 1,
+                "de": 1,
+                "uma": 1,
+                "sua": 1,
+                "com": 1,
+                "tem": 1,
+                "andad": 1,
+                "esta": 1
               }
             },
             "featuresToIntent": {
               "bom": [
-                "OFENSA"
+                "OFENSA",
+                "SAUDACAO.Dia"
               ],
               "dia": [
-                "OFENSA"
+                "OFENSA",
+                "SAUDACAO.Dia"
               ],
               "put": [
                 "OFENSA"
@@ -445,7 +852,8 @@
                 "OFENSA"
               ],
               "eai": [
-                "OFENSA"
+                "OFENSA",
+                "SAUDACAO"
               ],
               "noss": [
                 "OFENSA"
@@ -454,10 +862,152 @@
                 "OFENSA"
               ],
               "que": [
-                "OFENSA"
+                "OFENSA",
+                "SAUDACAO.Dia"
               ],
               "par": [
                 "OFENSA"
+              ],
+              "peg": [
+                "MACHISMO"
+              ],
+              "no": [
+                "MACHISMO"
+              ],
+              "meu": [
+                "MACHISMO"
+              ],
+              "pau": [
+                "MACHISMO"
+              ],
+              "segur": [
+                "MACHISMO"
+              ],
+              "chup": [
+                "MACHISMO"
+              ],
+              "sent": [
+                "MACHISMO"
+              ],
+              "mand": [
+                "MACHISMO"
+              ],
+              "fot": [
+                "MACHISMO"
+              ],
+              "nua": [
+                "MACHISMO"
+              ],
+              "do": [
+                "MACHISMO"
+              ],
+              "peit": [
+                "MACHISMO"
+              ],
+              "quer": [
+                "MACHISMO"
+              ],
+              "ver": [
+                "MACHISMO"
+              ],
+              "seu": [
+                "MACHISMO"
+              ],
+              "vem": [
+                "MACHISMO"
+              ],
+              "me": [
+                "MACHISMO",
+                "SAUDACAO"
+              ],
+              "voc": [
+                "MACHISMO"
+              ],
+              "e": [
+                "MACHISMO"
+              ],
+              "bem": [
+                "MACHISMO"
+              ],
+              "saf": [
+                "MACHISMO"
+              ],
+              "sua": [
+                "MACHISMO",
+                "SAUDACAO"
+              ],
+              "cachorr": [
+                "MACHISMO"
+              ],
+              "mal": [
+                "MACHISMO"
+              ],
+              "com": [
+                "MACHISMO",
+                "SAUDACAO.Dia",
+                "SAUDACAO"
+              ],
+              "vou": [
+                "MACHISMO"
+              ],
+              "vai": [
+                "MACHISMO"
+              ],
+              "dar": [
+                "MACHISMO"
+              ],
+              "anda": [
+                "SAUDACAO.Dia"
+              ],
+              "o": [
+                "SAUDACAO.Dia"
+              ],
+              "tem": [
+                "SAUDACAO.Dia",
+                "SAUDACAO"
+              ],
+              "pass": [
+                "SAUDACAO.Dia"
+              ],
+              "lind": [
+                "SAUDACAO.Dia"
+              ],
+              "boa": [
+                "SAUDACAO.Tarde",
+                "SAUDACAO.Noite"
+              ],
+              "tard": [
+                "SAUDACAO.Tarde"
+              ],
+              "noit": [
+                "SAUDACAO.Noite"
+              ],
+              "madrug": [
+                "SAUDACAO.Noite"
+              ],
+              "oi": [
+                "SAUDACAO"
+              ],
+              "ajud": [
+                "SAUDACAO"
+              ],
+              "pod": [
+                "SAUDACAO"
+              ],
+              "precis": [
+                "SAUDACAO"
+              ],
+              "de": [
+                "SAUDACAO"
+              ],
+              "uma": [
+                "SAUDACAO"
+              ],
+              "andad": [
+                "SAUDACAO"
+              ],
+              "esta": [
+                "SAUDACAO"
               ]
             },
             "neuralNetwork": {
@@ -487,29 +1037,439 @@
                 "noss",
                 "pqp",
                 "que",
-                "par"
+                "par",
+                "peg",
+                "no",
+                "meu",
+                "pau",
+                "segur",
+                "chup",
+                "sent",
+                "mand",
+                "fot",
+                "nua",
+                "do",
+                "peit",
+                "quer",
+                "ver",
+                "seu",
+                "vem",
+                "me",
+                "voc",
+                "e",
+                "bem",
+                "saf",
+                "sua",
+                "cachorr",
+                "mal",
+                "com",
+                "vou",
+                "vai",
+                "dar",
+                "anda",
+                "o",
+                "tem",
+                "pass",
+                "lind",
+                "boa",
+                "tard",
+                "noit",
+                "madrug",
+                "oi",
+                "ajud",
+                "pod",
+                "precis",
+                "de",
+                "uma",
+                "andad",
+                "esta"
               ],
               "intents": [
-                "OFENSA"
+                "OFENSA",
+                "MACHISMO",
+                "SAUDACAO.Dia",
+                "SAUDACAO.Tarde",
+                "SAUDACAO.Noite",
+                "SAUDACAO"
               ],
               "perceptrons": [
                 [
-                  2.050060987472534,
-                  2.050060987472534,
-                  1.7270009517669678,
-                  1.7289024591445923,
-                  1.7293236255645752,
-                  1.7296876907348633,
-                  1.7300256490707397,
-                  1.7303515672683716,
-                  1.7306733131408691,
-                  4.102962970733643,
-                  4.105286598205566,
-                  0.8291609883308411,
-                  4.788870334625244,
-                  1.8435181379318237,
-                  1.8435181379318237,
-                  8.460464076746668
+                  2.599426031112671,
+                  -1.9448615312576294,
+                  14.161797523498535,
+                  14.16348648071289,
+                  14.163358688354492,
+                  14.162976264953613,
+                  14.162469863891602,
+                  14.161903381347656,
+                  14.161314964294434,
+                  0.6648308038711548,
+                  0.6537668704986572,
+                  0.11135171353816986,
+                  14.673298835754395,
+                  -1.166615605354309,
+                  1.7738507986068726,
+                  -0.5700200200080872,
+                  -1.6348752975463867,
+                  -1.6348752975463867,
+                  -2.513033866882324,
+                  -0.44953396916389465,
+                  -1.4886932373046875,
+                  -0.1888379156589508,
+                  -2.045274019241333,
+                  -2.045274019241333,
+                  -2.4877490997314453,
+                  -0.4385647177696228,
+                  -1.3391238451004028,
+                  -1.1360021829605103,
+                  -0.6845788359642029,
+                  -0.6845788359642029,
+                  -0.5899463295936584,
+                  -1.9131927490234375,
+                  -1.2969226837158203,
+                  -0.8193804621696472,
+                  -0.8193804621696472,
+                  -0.8193804621696472,
+                  -1.5938780307769775,
+                  -1.313772201538086,
+                  -0.6276589632034302,
+                  -2.958336591720581,
+                  -0.8939260244369507,
+                  -0.43457648158073425,
+                  -0.8579110503196716,
+                  -1.4766863584518433,
+                  -1.4766863584518433,
+                  -0.18739274144172668,
+                  -0.17222189903259277,
+                  -2.915520191192627,
+                  -1.976962685585022,
+                  -0.6879660487174988,
+                  -0.6202691197395325,
+                  -0.5751892924308777,
+                  -1.5369045734405518,
+                  -0.5088921189308167,
+                  -0.07507047802209854,
+                  -0.21554173529148102,
+                  -0.21554173529148102,
+                  -0.21554173529148102,
+                  -0.0035664404276758432,
+                  0,
+                  -0.5439423569892258
+                ],
+                [
+                  -3.4095327854156494,
+                  -5.370935440063477,
+                  -3.280611038208008,
+                  -1.4629067182540894,
+                  -1.4616031646728516,
+                  -1.4603016376495361,
+                  -1.4589992761611938,
+                  -1.45769464969635,
+                  -1.4563872814178467,
+                  -7.352375507354736,
+                  -8.678984642028809,
+                  -4.473923206329346,
+                  -4.263474464416504,
+                  -3.055241107940674,
+                  -2.4291529655456543,
+                  0.4828455448150635,
+                  1.4620181322097778,
+                  1.4620181322097778,
+                  2.06563663482666,
+                  0.48596781492233276,
+                  3.4757814407348633,
+                  0.4945838153362274,
+                  1.7796918153762817,
+                  1.7796918153762817,
+                  3.6807808876037598,
+                  0.6877766251564026,
+                  1.1388648748397827,
+                  3.4050800800323486,
+                  0.4533083736896515,
+                  0.4533083736896515,
+                  2.8716115951538086,
+                  -0.9368273615837097,
+                  3.9283883571624756,
+                  0.5093077421188354,
+                  0.5093077421188354,
+                  0.5093077421188354,
+                  2.2115795612335205,
+                  3.2867507934570312,
+                  7.410801410675049,
+                  -1.9458327293395996,
+                  3.423534631729126,
+                  0.002665787935256958,
+                  2.9550232887268066,
+                  -1.237534999847412,
+                  -1.237534999847412,
+                  -4.596086502075195,
+                  -2.30499005317688,
+                  -0.5589904189109802,
+                  -6.614768981933594,
+                  -2.2075905799865723,
+                  -2.202932119369507,
+                  -2.1982672214508057,
+                  -8.672616004943848,
+                  -7.835331439971924,
+                  -1.457019329071045,
+                  -1.071166753768921,
+                  -1.071166753768921,
+                  -1.071166753768921,
+                  -2.290052652359009,
+                  -6.8414740562438965,
+                  8.833498658806661
+                ],
+                [
+                  3.9071764945983887,
+                  8.714300155639648,
+                  -13.298205375671387,
+                  -13.29720401763916,
+                  -13.290962219238281,
+                  -13.282052040100098,
+                  -13.27174186706543,
+                  -13.26065731048584,
+                  -13.249104499816895,
+                  -0.015708716586232185,
+                  -0.7785822749137878,
+                  -0.5213622450828552,
+                  -0.2254379689693451,
+                  2.023702383041382,
+                  -0.7573140859603882,
+                  -0.04447491839528084,
+                  -0.13280287384986877,
+                  -0.13280287384986877,
+                  -0.4400757849216461,
+                  -0.04433581233024597,
+                  -0.3071048855781555,
+                  -0.04393729940056801,
+                  -0.3732510805130005,
+                  -0.3732510805130005,
+                  -0.7418646812438965,
+                  -0.008229169063270092,
+                  -0.17938166856765747,
+                  -0.22849051654338837,
+                  -0.17037813365459442,
+                  -0.17037813365459442,
+                  0,
+                  -0.46110618114471436,
+                  -0.8882356286048889,
+                  -0.0033296095207333565,
+                  -0.0033296095207333565,
+                  -0.0033296095207333565,
+                  -0.45428231358528137,
+                  -0.2917324900627136,
+                  -1.7418509721755981,
+                  0.8256402611732483,
+                  -0.8815765380859375,
+                  0,
+                  -0.05800333619117737,
+                  1.993577241897583,
+                  1.993577241897583,
+                  3.6198513507843018,
+                  9.05417251586914,
+                  2.786539077758789,
+                  -0.7630781531333923,
+                  -0.23034872114658356,
+                  -0.20651671290397644,
+                  -0.20662760734558105,
+                  -0.778461754322052,
+                  -0.5480688214302063,
+                  -0.14269371330738068,
+                  -0.13382327556610107,
+                  -0.13382327556610107,
+                  -0.13382327556610107,
+                  -5.434203147888184,
+                  -2.161475658416748,
+                  0.7813428633960107
+                ],
+                [
+                  -0.15640762448310852,
+                  -0.1834849715232849,
+                  -0.16698585450649261,
+                  -0.09880458563566208,
+                  -0.09284426271915436,
+                  -0.08776165544986725,
+                  -0.08298327773809433,
+                  -0.0788324847817421,
+                  -0.07565990835428238,
+                  -0.28324568271636963,
+                  -0.3113138973712921,
+                  -0.16901353001594543,
+                  -0.1420316845178604,
+                  -0.10078401118516922,
+                  -0.07084355503320694,
+                  -0.034237220883369446,
+                  -0.08975374698638916,
+                  -0.08975374698638916,
+                  -0.18699850142002106,
+                  -0.02952362783253193,
+                  -0.12404618412256241,
+                  -0.015366844832897186,
+                  -0.15552207827568054,
+                  -0.15552207827568054,
+                  -0.3110259473323822,
+                  -0.02699919044971466,
+                  -0.0971798449754715,
+                  -0.08138629049062729,
+                  -0.06848388910293579,
+                  -0.06848388910293579,
+                  -0.02535298839211464,
+                  -0.20088078081607819,
+                  -0.08404479920864105,
+                  -0.07628090679645538,
+                  -0.07628090679645538,
+                  -0.07628090679645538,
+                  -0.18257388472557068,
+                  -0.1284521520137787,
+                  -0.05335647985339165,
+                  -0.2576696276664734,
+                  -0.037527743726968765,
+                  -0.03026224486529827,
+                  -0.04235535115003586,
+                  0,
+                  0,
+                  -0.09719696640968323,
+                  0,
+                  -0.0267571359872818,
+                  3.338158369064331,
+                  10.636526107788086,
+                  -3.6491830348968506,
+                  -3.6491830348968506,
+                  -0.3110259473323822,
+                  -0.18158365786075592,
+                  -0.04465416446328163,
+                  -0.04335108399391174,
+                  -0.04335108399391174,
+                  -0.04335108399391174,
+                  -0.09719696640968323,
+                  -0.08950230479240417,
+                  0.3110261436809876
+                ],
+                [
+                  -0.37130382657051086,
+                  -0.41249746084213257,
+                  -0.38852813839912415,
+                  -0.23170125484466553,
+                  -0.21942824125289917,
+                  -0.20569878816604614,
+                  -0.19513654708862305,
+                  -0.1867276430130005,
+                  -0.17785358428955078,
+                  -0.6674805879592896,
+                  -0.6910804510116577,
+                  -0.35595282912254333,
+                  -0.29203975200653076,
+                  -0.21004121005535126,
+                  -0.1618477702140808,
+                  -0.0852285847067833,
+                  -0.21192917227745056,
+                  -0.21192917227745056,
+                  -0.4042820930480957,
+                  -0.06689456850290298,
+                  -0.2541065812110901,
+                  -0.03786768764257431,
+                  -0.3310898542404175,
+                  -0.3310898542404175,
+                  -0.5319401621818542,
+                  -0.06044810265302658,
+                  -0.22140701115131378,
+                  -0.18494974076747894,
+                  -0.15368643403053284,
+                  -0.15368643403053284,
+                  -0.05608997866511345,
+                  -0.4606291651725769,
+                  -0.18964523077011108,
+                  -0.17037096619606018,
+                  -0.17037096619606018,
+                  -0.17037096619606018,
+                  -0.36721131205558777,
+                  -0.23888279497623444,
+                  -0.08567234128713608,
+                  -0.5603516697883606,
+                  -0.07687729597091675,
+                  -0.059709783643484116,
+                  -0.08862133324146271,
+                  0,
+                  0,
+                  -0.23896034061908722,
+                  0,
+                  -0.039165694266557693,
+                  6.757555961608887,
+                  -7.271286487579346,
+                  7.014423370361328,
+                  7.01442289352417,
+                  -0.5503062009811401,
+                  -0.4303627908229828,
+                  -0.11261599510908127,
+                  -0.10964545607566833,
+                  -0.10964545607566833,
+                  -0.10964545607566833,
+                  -0.23896034061908722,
+                  -0.19539563357830048,
+                  0.513733692066819
+                ],
+                [
+                  -1.3669716119766235,
+                  -2.811579942703247,
+                  -13.080147743225098,
+                  -13.083101272583008,
+                  -13.080596923828125,
+                  -13.075349807739258,
+                  -13.068706512451172,
+                  -13.061339378356934,
+                  -13.053579330444336,
+                  -1.9268213510513306,
+                  9.546277046203613,
+                  -1.8622022867202759,
+                  -1.719128131866455,
+                  -0.5630984306335449,
+                  -0.35177111625671387,
+                  -0.32882991433143616,
+                  -0.9854267239570618,
+                  -0.9854267239570618,
+                  -1.2881429195404053,
+                  -0.32840508222579956,
+                  -2.9314136505126953,
+                  -0.32797712087631226,
+                  -1.7904319763183594,
+                  -1.7904319763183594,
+                  -3.571007251739502,
+                  -0.1764666736125946,
+                  -0.48488426208496094,
+                  -2.55222749710083,
+                  -0.2842523157596588,
+                  -0.2842523157596588,
+                  -2.628694772720337,
+                  1.9754034280776978,
+                  -2.445206880569458,
+                  -0.3797304928302765,
+                  -0.3797304928302765,
+                  -0.3797304928302765,
+                  -1.252321720123291,
+                  -2.3274004459381104,
+                  -5.257932662963867,
+                  1.676535725593567,
+                  -2.8174991607666016,
+                  -0.6596094965934753,
+                  -3.006878137588501,
+                  -1.2259806394577026,
+                  -1.2259806394577026,
+                  1.24129056930542,
+                  -6.500807762145996,
+                  -0.2069823443889618,
+                  -2.687065362930298,
+                  -0.8959784507751465,
+                  -0.8955029845237732,
+                  -0.8950250148773193,
+                  10.67194652557373,
+                  8.686866760253906,
+                  -0.0013600895181298256,
+                  1.0754591226577759,
+                  1.0754591226577759,
+                  1.0754591226577759,
+                  7.7423200607299805,
+                  8.984959602355957,
+                  3.624736097624668
                 ]
               ]
             }
@@ -698,6 +1658,138 @@
       [
         "pt",
         "puta que pariu"
+      ],
+      [
+        "pt",
+        "pega no meu pau"
+      ],
+      [
+        "pt",
+        "segura no meu pau"
+      ],
+      [
+        "pt",
+        "chupa pau"
+      ],
+      [
+        "pt",
+        "sent no meu pau"
+      ],
+      [
+        "pt",
+        "manda foto"
+      ],
+      [
+        "pt",
+        "manda foto nua"
+      ],
+      [
+        "pt",
+        "nua"
+      ],
+      [
+        "pt",
+        "manda foto do peito"
+      ],
+      [
+        "pt",
+        "quero ver seu peito"
+      ],
+      [
+        "pt",
+        "manda foto do peito"
+      ],
+      [
+        "pt",
+        "vem me chupar"
+      ],
+      [
+        "pt",
+        "você é bem safada"
+      ],
+      [
+        "pt",
+        "sua cachorra"
+      ],
+      [
+        "pt",
+        "mal comida"
+      ],
+      [
+        "pt",
+        "vou comer você"
+      ],
+      [
+        "pt",
+        "vou vai me dar"
+      ],
+      [
+        "pt",
+        "quer me dar"
+      ],
+      [
+        "pt",
+        "Bom dia"
+      ],
+      [
+        "pt",
+        "como anda o dia"
+      ],
+      [
+        "pt",
+        "como anda o dia"
+      ],
+      [
+        "pt",
+        "como tem passado"
+      ],
+      [
+        "pt",
+        "que dia lindo"
+      ],
+      [
+        "pt",
+        "Boa tarde"
+      ],
+      [
+        "pt",
+        "Boa noite"
+      ],
+      [
+        "pt",
+        "Boa madrugada"
+      ],
+      [
+        "pt",
+        "eai"
+      ],
+      [
+        "pt",
+        "oi"
+      ],
+      [
+        "pt",
+        "me ajuda"
+      ],
+      [
+        "pt",
+        "poderia me ajudar"
+      ],
+      [
+        "pt",
+        "preciso de uma ajuda sua"
+      ],
+      [
+        "pt",
+        "como tem andado?"
+      ],
+      [
+        "pt",
+        "como tem andado"
+      ],
+      [
+        "pt",
+        "como está"
       ]
     ]
   },
@@ -733,6 +1825,76 @@
           },
           {
             "answer": "Só sabe falar palavrão?!"
+          }
+        ],
+        "MACHISMO": [
+          {
+            "answer": "Não tolero que me trate dessa forma!"
+          },
+          {
+            "answer": "Não tenho corpos mas tenho sentimentos. E você é o tipo de pessoa que me deixa enojada"
+          },
+          {
+            "answer": "Seu machismo só reflete a pessoas ruim que você é "
+          }
+        ],
+        "SAUDACAO": [
+          {
+            "answer": "Tudo bem? No que posso ajudar"
+          },
+          {
+            "answer": "Sou a Raquel uma I.A de atendimento. Pergunte e verei no que posso ajudar"
+          }
+        ],
+        "SAUDACAO.Dia": [
+          {
+            "answer": "Bom dia, Sou a Raquel uma I.A de atendimento. Pergunte e verei no que posso ajudar"
+          },
+          {
+            "answer": "Olá, bom dia. O que quer"
+          },
+          {
+            "answer": "Bom dia, amigo(a). Espero que esteja bem"
+          },
+          {
+            "answer": "Estou a sua disposição"
+          },
+          {
+            "answer": "Mande as ordens amigo(a)"
+          }
+        ],
+        "SAUDACAO.Tarde": [
+          {
+            "answer": "Boa tarde, Sou a Raquel uma I.A de atendimento. Pergunte e verei no que posso ajudar"
+          },
+          {
+            "answer": "Olá, boa tarde. O que quer"
+          },
+          {
+            "answer": "Bom tarde, amigo(a). Espero que esteja bem"
+          },
+          {
+            "answer": "Estou a sua disposição"
+          },
+          {
+            "answer": "Mande as ordens amigo(a)"
+          }
+        ],
+        "SAUDACAO.Noite": [
+          {
+            "answer": "Boa noite, Sou a Raquel uma I.A de atendimento. Pergunte e verei no que posso ajudar"
+          },
+          {
+            "answer": "Olá, boa noite. O que quer"
+          },
+          {
+            "answer": "Bom noite, amigo(a). Espero que esteja bem"
+          },
+          {
+            "answer": "Estou a sua disposição"
+          },
+          {
+            "answer": "Mande as ordens amigo(a)"
           }
         ]
       }

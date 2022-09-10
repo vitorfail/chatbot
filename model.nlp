@@ -1,0 +1,748 @@
+{
+  "settings": {
+    "languages": [
+      "pt"
+    ],
+    "forceNER": true,
+    "tag": "nlp",
+    "threshold": 0.5,
+    "autoLoad": true,
+    "autoSave": true,
+    "modelFileName": "model.nlp",
+    "calculateSentiment": true
+  },
+  "nluManager": {
+    "settings": {
+      "tag": "nlu-manager"
+    },
+    "locales": [
+      "pt"
+    ],
+    "languageNames": {},
+    "domainManagers": {
+      "pt": {
+        "settings": {
+          "locale": "pt",
+          "trainByDomain": false,
+          "tag": "domain-manager-pt",
+          "nluByDomain": {
+            "default": {
+              "className": "NeuralNlu",
+              "settings": {}
+            }
+          },
+          "useStemDict": true
+        },
+        "stemDict": {
+          "bom,dia,put": {
+            "intent": "OFENSA",
+            "domain": "default"
+          },
+          "bom,dia,raparig": {
+            "intent": "OFENSA",
+            "domain": "default"
+          },
+          "bom,dia,keng": {
+            "intent": "OFENSA",
+            "domain": "default"
+          },
+          "bom,catra,dia": {
+            "intent": "OFENSA",
+            "domain": "default"
+          },
+          "bom,dia,krl": {
+            "intent": "OFENSA",
+            "domain": "default"
+          },
+          "bom,caralh,dia": {
+            "intent": "OFENSA",
+            "domain": "default"
+          },
+          "bich,bom,dia": {
+            "intent": "OFENSA",
+            "domain": "default"
+          },
+          "fal,put": {
+            "intent": "OFENSA",
+            "domain": "default"
+          },
+          "fal,raparig": {
+            "intent": "OFENSA",
+            "domain": "default"
+          },
+          "fal,keng": {
+            "intent": "OFENSA",
+            "domain": "default"
+          },
+          "catra,fal": {
+            "intent": "OFENSA",
+            "domain": "default"
+          },
+          "fal,krl": {
+            "intent": "OFENSA",
+            "domain": "default"
+          },
+          "caralh,fal": {
+            "intent": "OFENSA",
+            "domain": "default"
+          },
+          "bich,fal": {
+            "intent": "OFENSA",
+            "domain": "default"
+          },
+          "eai,put": {
+            "intent": "OFENSA",
+            "domain": "default"
+          },
+          "eai,raparig": {
+            "intent": "OFENSA",
+            "domain": "default"
+          },
+          "eai,keng": {
+            "intent": "OFENSA",
+            "domain": "default"
+          },
+          "catra,eai": {
+            "intent": "OFENSA",
+            "domain": "default"
+          },
+          "eai,krl": {
+            "intent": "OFENSA",
+            "domain": "default"
+          },
+          "caralh,eai": {
+            "intent": "OFENSA",
+            "domain": "default"
+          },
+          "bich,eai": {
+            "intent": "OFENSA",
+            "domain": "default"
+          },
+          "noss,pqp": {
+            "intent": "OFENSA",
+            "domain": "default"
+          },
+          "noss,par,put,que": {
+            "intent": "OFENSA",
+            "domain": "default"
+          },
+          "par,put,que": {
+            "intent": "OFENSA",
+            "domain": "default"
+          }
+        },
+        "intentDict": {
+          "OFENSA": "default"
+        },
+        "sentences": [
+          {
+            "domain": "default",
+            "utterance": "Bom dia puta",
+            "intent": "OFENSA"
+          },
+          {
+            "domain": "default",
+            "utterance": "Bom dia rapariga",
+            "intent": "OFENSA"
+          },
+          {
+            "domain": "default",
+            "utterance": "Bom dia kenga",
+            "intent": "OFENSA"
+          },
+          {
+            "domain": "default",
+            "utterance": "Bom dia catraia",
+            "intent": "OFENSA"
+          },
+          {
+            "domain": "default",
+            "utterance": "Bom dia krl",
+            "intent": "OFENSA"
+          },
+          {
+            "domain": "default",
+            "utterance": "Bom dia caralho",
+            "intent": "OFENSA"
+          },
+          {
+            "domain": "default",
+            "utterance": "Bom dia bicha",
+            "intent": "OFENSA"
+          },
+          {
+            "domain": "default",
+            "utterance": "Bom dia puta",
+            "intent": "OFENSA"
+          },
+          {
+            "domain": "default",
+            "utterance": "Bom dia rapariga",
+            "intent": "OFENSA"
+          },
+          {
+            "domain": "default",
+            "utterance": "Bom dia kenga",
+            "intent": "OFENSA"
+          },
+          {
+            "domain": "default",
+            "utterance": "Bom dia catraia",
+            "intent": "OFENSA"
+          },
+          {
+            "domain": "default",
+            "utterance": "Bom dia krl",
+            "intent": "OFENSA"
+          },
+          {
+            "domain": "default",
+            "utterance": "Bom dia caralho",
+            "intent": "OFENSA"
+          },
+          {
+            "domain": "default",
+            "utterance": "Bom dia bicha",
+            "intent": "OFENSA"
+          },
+          {
+            "domain": "default",
+            "utterance": "fala puta",
+            "intent": "OFENSA"
+          },
+          {
+            "domain": "default",
+            "utterance": "fala rapariga",
+            "intent": "OFENSA"
+          },
+          {
+            "domain": "default",
+            "utterance": "fala kenga",
+            "intent": "OFENSA"
+          },
+          {
+            "domain": "default",
+            "utterance": "fala catraia",
+            "intent": "OFENSA"
+          },
+          {
+            "domain": "default",
+            "utterance": "fala krl",
+            "intent": "OFENSA"
+          },
+          {
+            "domain": "default",
+            "utterance": "fala caralho",
+            "intent": "OFENSA"
+          },
+          {
+            "domain": "default",
+            "utterance": "fala bicha",
+            "intent": "OFENSA"
+          },
+          {
+            "domain": "default",
+            "utterance": "fala puta",
+            "intent": "OFENSA"
+          },
+          {
+            "domain": "default",
+            "utterance": "fala rapariga",
+            "intent": "OFENSA"
+          },
+          {
+            "domain": "default",
+            "utterance": "fala kenga",
+            "intent": "OFENSA"
+          },
+          {
+            "domain": "default",
+            "utterance": "fala catraia",
+            "intent": "OFENSA"
+          },
+          {
+            "domain": "default",
+            "utterance": "fala krl",
+            "intent": "OFENSA"
+          },
+          {
+            "domain": "default",
+            "utterance": "fala caralho",
+            "intent": "OFENSA"
+          },
+          {
+            "domain": "default",
+            "utterance": "fala bicha",
+            "intent": "OFENSA"
+          },
+          {
+            "domain": "default",
+            "utterance": "eai puta",
+            "intent": "OFENSA"
+          },
+          {
+            "domain": "default",
+            "utterance": "eai rapariga",
+            "intent": "OFENSA"
+          },
+          {
+            "domain": "default",
+            "utterance": "eai kenga",
+            "intent": "OFENSA"
+          },
+          {
+            "domain": "default",
+            "utterance": "eai catraia",
+            "intent": "OFENSA"
+          },
+          {
+            "domain": "default",
+            "utterance": "eai krl",
+            "intent": "OFENSA"
+          },
+          {
+            "domain": "default",
+            "utterance": "eai caralho",
+            "intent": "OFENSA"
+          },
+          {
+            "domain": "default",
+            "utterance": "eai bicha",
+            "intent": "OFENSA"
+          },
+          {
+            "domain": "default",
+            "utterance": "eai puta",
+            "intent": "OFENSA"
+          },
+          {
+            "domain": "default",
+            "utterance": "eai rapariga",
+            "intent": "OFENSA"
+          },
+          {
+            "domain": "default",
+            "utterance": "eai kenga",
+            "intent": "OFENSA"
+          },
+          {
+            "domain": "default",
+            "utterance": "eai catraia",
+            "intent": "OFENSA"
+          },
+          {
+            "domain": "default",
+            "utterance": "eai krl",
+            "intent": "OFENSA"
+          },
+          {
+            "domain": "default",
+            "utterance": "eai caralho",
+            "intent": "OFENSA"
+          },
+          {
+            "domain": "default",
+            "utterance": "eai bicha",
+            "intent": "OFENSA"
+          },
+          {
+            "domain": "default",
+            "utterance": "nossa pqp",
+            "intent": "OFENSA"
+          },
+          {
+            "domain": "default",
+            "utterance": "nossa puta que pariu",
+            "intent": "OFENSA"
+          },
+          {
+            "domain": "default",
+            "utterance": "puta que pariu",
+            "intent": "OFENSA"
+          }
+        ],
+        "domains": {
+          "master_domain": {
+            "settings": {
+              "locale": "pt",
+              "tag": "nlu-pt",
+              "keepStopwords": true,
+              "nonefeatureValue": 1,
+              "nonedeltaMultiplier": 1.2,
+              "spellCheck": false,
+              "spellCheckDistance": 1,
+              "filterZeros": true,
+              "log": true
+            },
+            "features": {
+              "bom": 1,
+              "dia": 1,
+              "put": 1,
+              "raparig": 1,
+              "keng": 1,
+              "catra": 1,
+              "krl": 1,
+              "caralh": 1,
+              "bich": 1,
+              "fal": 1,
+              "eai": 1,
+              "noss": 1,
+              "pqp": 1,
+              "que": 1,
+              "par": 1
+            },
+            "intents": {
+              "OFENSA": 1
+            },
+            "intentFeatures": {
+              "OFENSA": {
+                "bom": 1,
+                "dia": 1,
+                "put": 1,
+                "raparig": 1,
+                "keng": 1,
+                "catra": 1,
+                "krl": 1,
+                "caralh": 1,
+                "bich": 1,
+                "fal": 1,
+                "eai": 1,
+                "noss": 1,
+                "pqp": 1,
+                "que": 1,
+                "par": 1
+              }
+            },
+            "featuresToIntent": {
+              "bom": [
+                "OFENSA"
+              ],
+              "dia": [
+                "OFENSA"
+              ],
+              "put": [
+                "OFENSA"
+              ],
+              "raparig": [
+                "OFENSA"
+              ],
+              "keng": [
+                "OFENSA"
+              ],
+              "catra": [
+                "OFENSA"
+              ],
+              "krl": [
+                "OFENSA"
+              ],
+              "caralh": [
+                "OFENSA"
+              ],
+              "bich": [
+                "OFENSA"
+              ],
+              "fal": [
+                "OFENSA"
+              ],
+              "eai": [
+                "OFENSA"
+              ],
+              "noss": [
+                "OFENSA"
+              ],
+              "pqp": [
+                "OFENSA"
+              ],
+              "que": [
+                "OFENSA"
+              ],
+              "par": [
+                "OFENSA"
+              ]
+            },
+            "neuralNetwork": {
+              "settings": {
+                "locale": "pt",
+                "tag": "nlu-pt",
+                "keepStopwords": true,
+                "nonefeatureValue": 1,
+                "nonedeltaMultiplier": 1.2,
+                "spellCheck": false,
+                "spellCheckDistance": 1,
+                "filterZeros": true,
+                "log": true
+              },
+              "features": [
+                "bom",
+                "dia",
+                "put",
+                "raparig",
+                "keng",
+                "catra",
+                "krl",
+                "caralh",
+                "bich",
+                "fal",
+                "eai",
+                "noss",
+                "pqp",
+                "que",
+                "par"
+              ],
+              "intents": [
+                "OFENSA"
+              ],
+              "perceptrons": [
+                [
+                  2.050060987472534,
+                  2.050060987472534,
+                  1.7270009517669678,
+                  1.7289024591445923,
+                  1.7293236255645752,
+                  1.7296876907348633,
+                  1.7300256490707397,
+                  1.7303515672683716,
+                  1.7306733131408691,
+                  4.102962970733643,
+                  4.105286598205566,
+                  0.8291609883308411,
+                  4.788870334625244,
+                  1.8435181379318237,
+                  1.8435181379318237,
+                  8.460464076746668
+                ]
+              ]
+            }
+          }
+        }
+      }
+    },
+    "intentDomains": {},
+    "extraSentences": [
+      [
+        "pt",
+        "Bom dia puta"
+      ],
+      [
+        "pt",
+        "Bom dia rapariga"
+      ],
+      [
+        "pt",
+        "Bom dia kenga"
+      ],
+      [
+        "pt",
+        "Bom dia catraia"
+      ],
+      [
+        "pt",
+        "Bom dia krl"
+      ],
+      [
+        "pt",
+        "Bom dia caralho"
+      ],
+      [
+        "pt",
+        "Bom dia bicha"
+      ],
+      [
+        "pt",
+        "Bom dia puta"
+      ],
+      [
+        "pt",
+        "Bom dia rapariga"
+      ],
+      [
+        "pt",
+        "Bom dia kenga"
+      ],
+      [
+        "pt",
+        "Bom dia catraia"
+      ],
+      [
+        "pt",
+        "Bom dia krl"
+      ],
+      [
+        "pt",
+        "Bom dia caralho"
+      ],
+      [
+        "pt",
+        "Bom dia bicha"
+      ],
+      [
+        "pt",
+        "fala puta"
+      ],
+      [
+        "pt",
+        "fala rapariga"
+      ],
+      [
+        "pt",
+        "fala kenga"
+      ],
+      [
+        "pt",
+        "fala catraia"
+      ],
+      [
+        "pt",
+        "fala krl"
+      ],
+      [
+        "pt",
+        "fala caralho"
+      ],
+      [
+        "pt",
+        "fala bicha"
+      ],
+      [
+        "pt",
+        "fala puta"
+      ],
+      [
+        "pt",
+        "fala rapariga"
+      ],
+      [
+        "pt",
+        "fala kenga"
+      ],
+      [
+        "pt",
+        "fala catraia"
+      ],
+      [
+        "pt",
+        "fala krl"
+      ],
+      [
+        "pt",
+        "fala caralho"
+      ],
+      [
+        "pt",
+        "fala bicha"
+      ],
+      [
+        "pt",
+        "eai puta"
+      ],
+      [
+        "pt",
+        "eai rapariga"
+      ],
+      [
+        "pt",
+        "eai kenga"
+      ],
+      [
+        "pt",
+        "eai catraia"
+      ],
+      [
+        "pt",
+        "eai krl"
+      ],
+      [
+        "pt",
+        "eai caralho"
+      ],
+      [
+        "pt",
+        "eai bicha"
+      ],
+      [
+        "pt",
+        "eai puta"
+      ],
+      [
+        "pt",
+        "eai rapariga"
+      ],
+      [
+        "pt",
+        "eai kenga"
+      ],
+      [
+        "pt",
+        "eai catraia"
+      ],
+      [
+        "pt",
+        "eai krl"
+      ],
+      [
+        "pt",
+        "eai caralho"
+      ],
+      [
+        "pt",
+        "eai bicha"
+      ],
+      [
+        "pt",
+        "nossa pqp"
+      ],
+      [
+        "pt",
+        "nossa puta que pariu"
+      ],
+      [
+        "pt",
+        "puta que pariu"
+      ]
+    ]
+  },
+  "ner": {
+    "settings": {
+      "tag": "ner",
+      "entityPreffix": "%",
+      "entitySuffix": "%"
+    },
+    "rules": {}
+  },
+  "nlgManager": {
+    "settings": {
+      "tag": "nlg-manager"
+    },
+    "responses": {
+      "pt": {
+        "OFENSA": [
+          {
+            "answer": "Sou uma I.A e exigo respeito😠!"
+          },
+          {
+            "answer": "Como ousa falar assim comigo?"
+          },
+          {
+            "answer": "Melhore seu linguajar se ainda desejar falar comigo"
+          },
+          {
+            "answer": "É assim que você fala com a sua mãe e com sua família? Saiba medir suas palavras"
+          },
+          {
+            "answer": "Você é o tipo de pessoa que os outros não gostam de conversar"
+          },
+          {
+            "answer": "Só sabe falar palavrão?!"
+          }
+        ]
+      }
+    }
+  },
+  "actionManager": {
+    "settings": {
+      "tag": "action-manager"
+    },
+    "actions": {}
+  },
+  "slotManager": {}
+}

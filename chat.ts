@@ -121,9 +121,9 @@ manager.addAnswer('pt', 'SAUDACAO.Noite', 'Estou a sua disposição');
 manager.addAnswer('pt', 'SAUDACAO.Noite', 'Mande as ordens amigo(a)');
 
 module.exports =async function (pergunta){
-      //await manager.train();
-      //manager.save('./model.nlp');
-      manager.load('./model.nlp');
+      await manager.train();
+      manager.save();
+      //manager.load();
       const response = await manager.process('pt', String(pergunta));
       return response.answer;
-  };
+};

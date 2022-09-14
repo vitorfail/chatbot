@@ -4,7 +4,7 @@
   "description": "Chatbot para Raquel.",
   "main": "index.js",
   "engines": {
-    "node" : "14.x"
+    "node": "14.x"
   },
   "scripts": {
     "start": "node index.js"
@@ -15,9 +15,11 @@
   "keywords": [],
   "author": "",
   "license": "ISC",
-  "bugs": {
-  },
+  "bugs": {},
   "dependencies": {
     "express": "^4.17.1"
+  },
+  "devDependencies": {
+    "@types/node": "^18.7.18"
   }
 }

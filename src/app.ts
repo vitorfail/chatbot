@@ -120,13 +120,12 @@ manager.addAnswer('pt', 'SAUDACAO.Noite', 'Bom noite, amigo(a). Espero que estej
 manager.addAnswer('pt', 'SAUDACAO.Noite', 'Estou a sua disposição');
 manager.addAnswer('pt', 'SAUDACAO.Noite', 'Mande as ordens amigo(a)');
 
-function App(){
+module.exports = function (pergunta){
   (async() => {
       //await manager.train();
       //manager.save('./model.nlp');
       manager.load('./model.nlp');
-      const response = await manager.process('pt', 'poderia me ajudar');
+      const response = await manager.process('pt', String(pergunta));
       console.log(response.answer);
   })();
 }
-App()

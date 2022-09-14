@@ -6,7 +6,7 @@ const router = express.Router();
  *
  * @return product list | empty.
  */
-router.post("/", async (req, res) => {
+router.get("/", async (req, res) => {
   try {
     res.status(201).send("come cu");
 

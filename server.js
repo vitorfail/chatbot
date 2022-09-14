@@ -10,6 +10,6 @@ app.use(express.json());
 app.use(bodyParser.urlencoded({ extended: false }));
 app.use(bodyParser.json());
 app.use(bodyParser.raw());
-app.listen(3333, () =>{
+app.listen(process.env.PORT || 3000, () =>{
     console.log("Servidor iniciado")
 });

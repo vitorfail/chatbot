@@ -1,5 +1,7 @@
+const App = require('../app.ts')
+
 exports.post = (req, res, next) => {
-    res.status(201).send(req.params.id);
+    res.status(201).send(App(req.params.id));
  };
   
  exports.put = (req, res, next) => {

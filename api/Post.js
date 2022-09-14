@@ -1,17 +1,18 @@
 const express = require("express");
 const router = express.Router();
+const App = require("../chat.ts")
 
 /**
  * GET product list.
  *
  * @return product list | empty.
  */
-router.get("/", async (req, res) => {
+router.post("/", async (req, res) => {
   try {
-    res.status(201).send("come cu");
+    var resposta = await App(req.body.coment)
+    res.status(200).send(resposta);
 
   } catch (error) {
-    console.error(error);
     return res.status(500).send("Server error");
   }
 });

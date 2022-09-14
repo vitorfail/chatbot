@@ -1,7 +1,13 @@
 const App = require('../app.ts')
 
-exports.post = (req, res, next) => {
-    res.status(201).send(App(req.params.id));
+exports.post = async (req, res, next) => {
+   try{
+      var resposta = await App(req.body.coment)
+      res.status(201).send(resposta);
+   }
+   catch{
+      res.status(201).send("Houve um erro não poderei responder");
+   }
  };
   
  exports.put = (req, res, next) => {
@@ -15,7 +21,7 @@ exports.post = (req, res, next) => {
  };
   
  exports.get = (req, res, next) => {
-    res.status(200).send('Rota GET!');
+    res.status(200).send('RotaGET!');
  };
   
  exports.getById = (req, res, next) => {

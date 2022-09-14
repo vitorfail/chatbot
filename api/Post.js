@@ -13,7 +13,7 @@ router.post("/", async (req, res) => {
     res.status(200).send(resposta);
 
   } catch (error) {
-    return res.status(500).send("Server error");
+    return res.status(500).send(error);
   }
 });
 

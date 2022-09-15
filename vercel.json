@@ -11,5 +11,10 @@
           "src": "/(.*)",
           "dest": "/"
       }
-  ]
+  ],
+  "functions": {
+    "api/functions/*.ts": {
+         "includeFiles": "api/**"
+    }
+ }
 }

@@ -1,6 +1,84 @@
 const { NlpManager } = require('node-nlp');
 const manager = new NlpManager({ languages: ['pt'], forceNER: true });
 // Adds the utterances and intents for the NLP
+/*manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+manager.addDocument('pt', '', '');
+*/
+
+
+
+
+
+
+
 // Chingamento
 manager.addDocument('pt', 'Bom dia puta', 'OFENSA');
 manager.addDocument('pt', 'Bom dia rapariga', 'OFENSA');

@@ -124,5 +124,10 @@ module.exports =async function (pergunta){
       //manager.save();
       await manager.load(__dirname+"/model.nlp");
       const response = await manager.process('pt', String(pergunta));
-      return response.answer;
+      if(response.intent == "None"){
+            return "Desculpe não consegui entender o que disse"
+      }
+      else{
+            return response.answer;
+      }
 };

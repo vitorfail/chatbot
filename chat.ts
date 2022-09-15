@@ -122,7 +122,7 @@ manager.addAnswer('pt', 'SAUDACAO.Noite', 'Mande as ordens amigo(a)');
 module.exports =async function (pergunta){
       //await manager.train();
       //manager.save();
-      await manager.load("../api/model.nlp");
+      await manager.load("api/model.nlp");
       const response = await manager.process('pt', String(pergunta));
       return response.answer;
 };

@@ -1,6 +1,6 @@
 const express = require("express");
 const router = express.Router();
-const App = require("../chat")
+const App = require("../chat.ts")
 
 /**
  * GET product list.

@@ -9,6 +9,9 @@
   "scripts": {
     "start": "node index.js"
   },
+  "browser": {
+    "fs": false
+  },
   "repository": {
     "type": "git"
   },

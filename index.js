@@ -11,4 +11,4 @@ app.use(function(req, res, next) {
 app.use("/api/post", Post);
 
 const PORT = process.env.PORT || 8080;
-app.listen(PORT, () => console.log(`Server is running in port ${PORT}`));
+app.listen(PORT, () => console.log(`Servidor rodando na porta ${PORT}`));

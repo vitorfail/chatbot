@@ -363,50 +363,50 @@ manager.addAnswer('pt', 'DESCULPA', 'Vou te perdoar dessa vez');
 
 
 // Chingamento
-manager.addDocument('pt', 'Bom dia puta', 'OFENSA');
-manager.addDocument('pt', 'Bom dia rapariga', 'OFENSA');
-manager.addDocument('pt', 'Bom dia kenga', 'OFENSA');
-manager.addDocument('pt', 'Bom dia catraia', 'OFENSA');
-manager.addDocument('pt', 'Bom dia krl', 'OFENSA');
-manager.addDocument('pt', 'Bom dia caralho', 'OFENSA');
-manager.addDocument('pt', 'Bom dia bicha', 'OFENSA');
-manager.addDocument('pt', 'Bom dia puta', 'OFENSA');
-manager.addDocument('pt', 'Bom dia rapariga', 'OFENSA');
-manager.addDocument('pt', 'Bom dia kenga', 'OFENSA');
-manager.addDocument('pt', 'Bom dia catraia', 'OFENSA');
-manager.addDocument('pt', 'Bom dia krl', 'OFENSA');
-manager.addDocument('pt', 'Bom dia caralho', 'OFENSA');
-manager.addDocument('pt', 'Bom dia bicha', 'OFENSA');
+manager.addDocument('pt', 'puta', 'OFENSA');
+manager.addDocument('pt', 'rapariga', 'OFENSA');
+manager.addDocument('pt', 'kenga', 'OFENSA');
+manager.addDocument('pt', 'catraia', 'OFENSA');
+manager.addDocument('pt', 'krl', 'OFENSA');
+manager.addDocument('pt', 'caralho', 'OFENSA');
+manager.addDocument('pt', 'bicha', 'OFENSA');
+manager.addDocument('pt', 'puta', 'OFENSA');
+manager.addDocument('pt', 'rapariga', 'OFENSA');
+manager.addDocument('pt', 'kenga', 'OFENSA');
+manager.addDocument('pt', 'catraia', 'OFENSA');
+manager.addDocument('pt', 'krl', 'OFENSA');
+manager.addDocument('pt', 'caralho', 'OFENSA');
+manager.addDocument('pt', 'bicha', 'OFENSA');
 // Chingamento
-manager.addDocument('pt', 'fala puta', 'OFENSA');
-manager.addDocument('pt', 'fala rapariga', 'OFENSA');
-manager.addDocument('pt', 'fala kenga', 'OFENSA');
-manager.addDocument('pt', 'fala catraia', 'OFENSA');
-manager.addDocument('pt', 'fala krl', 'OFENSA');
-manager.addDocument('pt', 'fala caralho', 'OFENSA');
-manager.addDocument('pt', 'fala bicha', 'OFENSA');
-manager.addDocument('pt', 'fala puta', 'OFENSA');
-manager.addDocument('pt', 'fala rapariga', 'OFENSA');
-manager.addDocument('pt', 'fala kenga', 'OFENSA');
-manager.addDocument('pt', 'fala catraia', 'OFENSA');
-manager.addDocument('pt', 'fala krl', 'OFENSA');
-manager.addDocument('pt', 'fala caralho', 'OFENSA');
-manager.addDocument('pt', 'fala bicha', 'OFENSA');
+manager.addDocument('pt', 'puta', 'OFENSA');
+manager.addDocument('pt', 'rapariga', 'OFENSA');
+manager.addDocument('pt', 'kenga', 'OFENSA');
+manager.addDocument('pt', 'catraia', 'OFENSA');
+manager.addDocument('pt', 'krl', 'OFENSA');
+manager.addDocument('pt', 'caralho', 'OFENSA');
+manager.addDocument('pt', 'bicha', 'OFENSA');
+manager.addDocument('pt', 'puta', 'OFENSA');
+manager.addDocument('pt', 'rapariga', 'OFENSA');
+manager.addDocument('pt', 'kenga', 'OFENSA');
+manager.addDocument('pt', 'catraia', 'OFENSA');
+manager.addDocument('pt', 'krl', 'OFENSA');
+manager.addDocument('pt', 'caralho', 'OFENSA');
+manager.addDocument('pt', 'bicha', 'OFENSA');
 // Chingamento
-manager.addDocument('pt', 'eai puta', 'OFENSA');
-manager.addDocument('pt', 'eai rapariga', 'OFENSA');
-manager.addDocument('pt', 'eai kenga', 'OFENSA');
-manager.addDocument('pt', 'eai catraia', 'OFENSA');
-manager.addDocument('pt', 'eai krl', 'OFENSA');
-manager.addDocument('pt', 'eai caralho', 'OFENSA');
-manager.addDocument('pt', 'eai bicha', 'OFENSA');
-manager.addDocument('pt', 'eai puta', 'OFENSA');
-manager.addDocument('pt', 'eai rapariga', 'OFENSA');
-manager.addDocument('pt', 'eai kenga', 'OFENSA');
-manager.addDocument('pt', 'eai catraia', 'OFENSA');
-manager.addDocument('pt', 'eai krl', 'OFENSA');
-manager.addDocument('pt', 'eai caralho', 'OFENSA');
-manager.addDocument('pt', 'eai bicha', 'OFENSA');
+manager.addDocument('pt', 'puta', 'OFENSA');
+manager.addDocument('pt', 'rapariga', 'OFENSA');
+manager.addDocument('pt', 'kenga', 'OFENSA');
+manager.addDocument('pt', 'catraia', 'OFENSA');
+manager.addDocument('pt', 'krl', 'OFENSA');
+manager.addDocument('pt', 'caralho', 'OFENSA');
+manager.addDocument('pt', 'bicha', 'OFENSA');
+manager.addDocument('pt', 'puta', 'OFENSA');
+manager.addDocument('pt', 'rapariga', 'OFENSA');
+manager.addDocument('pt', 'kenga', 'OFENSA');
+manager.addDocument('pt', 'catraia', 'OFENSA');
+manager.addDocument('pt', 'krl', 'OFENSA');
+manager.addDocument('pt', 'caralho', 'OFENSA');
+manager.addDocument('pt', 'bicha', 'OFENSA');
 // Chingamento
 manager.addDocument('pt', 'nossa pqp', 'OFENSA');
 manager.addDocument('pt', 'nossa puta que pariu', 'OFENSA');
@@ -450,6 +450,8 @@ manager.addDocument('pt', 'Boa tarde', 'SAUDACAO.Tarde');
 manager.addDocument('pt', 'Boa noite', 'SAUDACAO.Noite');
 manager.addDocument('pt', 'Boa madrugada', 'SAUDACAO.Noite');
 // Saudação normal
+manager.addDocument('pt', 'como vai amiga', 'SAUDACAO');
+manager.addDocument('pt', 'como vai', 'SAUDACAO');
 manager.addDocument('pt', 'eai', 'SAUDACAO');
 manager.addDocument('pt', 'oi', 'SAUDACAO');
 manager.addDocument('pt', 'me ajuda', 'SAUDACAO');
@@ -458,6 +460,20 @@ manager.addDocument('pt', 'preciso de uma ajuda sua', 'SAUDACAO');
 manager.addDocument('pt', 'como tem andado?', 'SAUDACAO');
 manager.addDocument('pt', 'como tem andado', 'SAUDACAO');
 manager.addDocument('pt', 'como está', 'SAUDACAO');
+//perguntar hora e dia
+manager.addDocument('pt', 'que dia é hoje?', 'DIA');
+manager.addDocument('pt', 'me fala o dia', 'DIA');
+manager.addDocument('pt', 'que dia estamos?', 'DIA');
+manager.addDocument('pt', 'me fala a data', 'DATA');
+manager.addDocument('pt', 'a data', 'DATA');
+manager.addDocument('pt', 'data de hoje', 'DATA');
+manager.addDocument('pt', 'me fala as horas', 'HORAS');
+manager.addDocument('pt', 'que horas são', 'HORAS');
+manager.addDocument('pt', 'fala as horas', 'HORAS');
+
+
+
+
 // Resposta normal
 manager.addAnswer('pt', 'SAUDACAO', 'Tudo bem? No que posso ajudar');
 manager.addAnswer('pt', 'SAUDACAO', 'Sou a Raquel uma I.A de atendimento. Pergunte e verei no que posso ajudar');
@@ -481,14 +497,44 @@ manager.addAnswer('pt', 'SAUDACAO.Noite', 'Estou a sua disposição');
 manager.addAnswer('pt', 'SAUDACAO.Noite', 'Mande as ordens amigo(a)');
 
 module.exports =async function (pergunta){
-      //await manager.train();
-      //manager.save();
+      /*await manager.train();
+      manager.save();*/
       await manager.load(__dirname+"/model.nlp");
       const response = await manager.process('pt', String(pergunta));
       if(response.intent == "None"){
             return "Desculpe não consegui entender o que disse"
       }
       else{
-            return response.answer;
+            if(response.intent == 'DIA'){
+                  var dia = new Date()
+                  var semana = new Array(6);
+                  semana[0]='Domingo';
+                  semana[1]='Segunda-Feira';
+                  semana[2]='Terça-Feira';
+                  semana[3]='Quarta-Feira';
+                  semana[4]='Quinta-Feira';
+                  semana[5]='Sexta-Feira';
+                  semana[6]='Sábado';
+                  return semana[dia.getDay()];
+            }
+            if(response.intent == 'DATA'){
+                  var data = new Date()
+                  var meses = ["Janeiro", "Fevereiro", "Março", "Abril", "Maio", "Junho", "Julho", "Agosto", "Setembro", "Outubro", "Novembro","Dezembro"]
+                  return "É "+data.getDate()+" de "+ meses[data.getMonth()]+" de "+data.getFullYear()
+            }
+            if(response.intent == 'HORAS'){
+                  var data = new Date()
+                  var minutos = ""
+                  if(data.getMinutes() <10){
+                        minutos = "0"+data.getMinutes()
+                  }
+                  else{
+                        minutos = data.getMinutes()
+                  }
+                  return "São "+data.getHours()+":"+minutos
+            }
+            else{
+                  return response.answer;
+            }
       }
 };

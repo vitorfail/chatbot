@@ -529,7 +529,7 @@ module.exports =async function (pergunta){
                         minutos = "0"+data.getMinutes()
                   }
                   else{
-                        minutos = data.getMinutes()
+                        minutos = String(data.getMinutes())
                   }
                   return "São "+data.getHours()+":"+minutos
             }
